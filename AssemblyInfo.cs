@@ -24,8 +24,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Security;
 
 [assembly: AssemblyTitle("Com.Latipium.Defaults.Physics")]
 [assembly: AssemblyDescription("The default physics implementation for Latipium")]
@@ -43,3 +45,6 @@ using System.Runtime.CompilerServices;
 
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+
+[assembly: AllowPartiallyTrustedCallers]
+[assembly: CLSCompliant(true)]

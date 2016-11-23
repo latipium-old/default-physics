@@ -48,10 +48,16 @@
     <Reference Include="log4net">
       <HintPath>$(SolutionDir)\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Jitter">
+      <HintPath>packages\Jitter.0.1.7.0\lib\NET40\Jitter.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="AssemblyVersion.cs" />
+    <Compile Include="Com\Latipium\Defaults\Physics\PhysicsModule.cs" />
+    <Compile Include="Com\Latipium\Defaults\Physics\PhysicsSystem.cs" />
+    <Compile Include="Com\Latipium\Defaults\Physics\WorldBody.cs" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
