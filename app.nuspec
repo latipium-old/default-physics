@@ -17,6 +17,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
       <dependency id="log4net" version="2.0.5" />
+      <dependency id="Jitter" version="0.1.7.0" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" />
